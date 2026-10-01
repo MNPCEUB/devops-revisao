@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 def mensagem() -> str:
     """Retorna a mensagem exibida pela aplicacao."""
-    return "Ola, DevOps!"
+    return "Ola, DevOps! Pipeline rodando com GitHub Actions."
 
 
 @app.route("/")
