@@ -2,7 +2,7 @@ from app import app, mensagem
 
 
 def test_mensagem_padrao():
-    assert mensagem() == "Ola, DevOps!"
+    assert mensagem() == "Ola, DevOps! Pipeline rodando com GitHub Actions."
 
 
 def test_rota_raiz_responde_200():
